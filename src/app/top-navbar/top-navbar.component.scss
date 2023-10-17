@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing between links */
+  align-items: center; /* Vertically center the links within the nav */
+  height: 50px; 
+}
+
+.nav-link {
+  color: #0067f6; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+  background-color: #7dbabc9e;
+}
+
+.nav-link.active {
+  text-decoration: underline !important;
+  // padding-top: 50px;
+  // background-color: #0067f6 !important; 
+}
+
+.btn-img {
+  width: 50px;
+  height: 20px;
+}

@@ -3751,7 +3751,7 @@
   
   .badge-primary {
     color: #ffffff;
-    background-color: #0067f6; }
+    background-color: #3948C9; }
     a.badge-primary:hover, a.badge-primary:focus {
       color: #ffffff;
       background-color: #0052c3; }
@@ -7629,8 +7629,8 @@
   
   main {
     padding: 36px 60px 24px;
-    background-color: #ffffff;
-    border-top-right-radius: 10px; }
+    background-color: rgb(108 117 125 / 3%);
+    border-radius: 10px; }
     @media (max-width: 767px) {
       main {
         padding-left: 20px;
@@ -7762,8 +7762,8 @@
         margin-right: auto;
         margin-bottom: 5px; }
       main .testimonial-carousel .testimonial-img {
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         margin-bottom: 3px; }
       main .testimonial-carousel .testimonial-name {
@@ -8155,5 +8155,9 @@
 
       * {
         font-family: 'Montserrat', sans-serif;
+      }
+
+      footer {
+        background-color: #E3E2F2;
       }
   

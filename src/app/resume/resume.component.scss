@@ -1,0 +1,29 @@
+.client-logos-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.client-logo {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.client-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.client-logos-container::after {
+    content: "";
+    grid-column: span 6;
+}
+
+.btn-download-cv {
+    background-color: white;
+    color: black;
+}

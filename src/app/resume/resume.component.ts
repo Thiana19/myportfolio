@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PopupComponent } from '../popup/popup.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-resume',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent {
-
+ 
 }

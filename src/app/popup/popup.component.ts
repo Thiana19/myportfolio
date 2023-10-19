@@ -6,14 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./popup.component.scss']
 })
 export class PopupComponent {
-  formData = {
-    name: '',
-    email: '',
-    message: ''
-  };
-
-  submitForm() {
-    // Handle form submission logic here
-    console.log('Form submitted:', this.formData);
-  }
+  
 }

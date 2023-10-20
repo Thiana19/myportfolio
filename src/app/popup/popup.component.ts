@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-popup',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class PopupComponent {
   
+  constructor(public dialogRef: MatDialogRef<PopupComponent>) { }
+
+  onContinueClick(): void {
+    this.dialogRef.close();
+  }
 }
